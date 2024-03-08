@@ -2,6 +2,9 @@ import os
 import subprocess
 import pickle
 
+
+print("toto")
+
 def func1(input_val):
     subprocess.call("ls " + input_val, shell=True)
 
